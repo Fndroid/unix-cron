@@ -1,8 +1,16 @@
 {
   "name": "unix-cron",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "unix type cron for node.js",
   "main": "./lib/index.js",
+  "files": [
+    "./lib"
+  ],
+  "keywords": [
+    "cron",
+    "unix"
+  ],
+  "url": "https://github.com/Fndroid/unix-cron",
   "scripts": {
     "test": "mocha"
   },
