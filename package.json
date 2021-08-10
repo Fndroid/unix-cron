@@ -1,11 +1,8 @@
 {
   "name": "unix-cron",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "unix type cron for node.js",
   "main": "./lib/index.js",
-  "files": [
-    "./lib"
-  ],
   "keywords": [
     "cron",
     "unix"
