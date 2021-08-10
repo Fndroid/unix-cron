@@ -1,0 +1,17 @@
+{
+  "name": "unix-cron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Fndroid",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.3"
+  }
+}
