@@ -26,5 +26,11 @@ describe("index", function () {
       c2.next(new Date("2021-8-9 1:1:0")).toString(),
       new Date("2021-8-13 1:1:0").toString()
     );
+
+    const c3 = new cron("* * 29 2 *");
+    assert.strictEqual(
+      c3.next(new Date("2021-8-9 1:1:0")).toString(),
+      new Date("2024-2-29 0:0:0").toString()
+    );
   });
 });
